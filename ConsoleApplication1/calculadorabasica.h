@@ -1,0 +1,6 @@
+#ifndef CALCULADORABASICA_H
+#define CALCULADORABASICA_H
+
+int calculadora();
+
+#endif // CALCULADORABASICA_H

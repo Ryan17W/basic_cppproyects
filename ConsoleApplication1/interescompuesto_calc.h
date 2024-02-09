@@ -1,0 +1,6 @@
+#ifndef INTERESCOMPUESTO_CALC_H
+#define INTERESCOMPUESTO_CALC_H
+
+int calcInCom();
+
+#endif // !INTERESCOMPUESTO_CALC_H

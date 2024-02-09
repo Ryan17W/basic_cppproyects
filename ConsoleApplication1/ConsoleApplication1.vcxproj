@@ -127,10 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="calculadorabasica.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="adivinanzas.cpp" />
+    <ClCompile Include="calculadorabasica.cpp" />
+    <ClCompile Include="calculadorabasica.h" />
+    <ClCompile Include="clase1.cpp" />
+    <ClCompile Include="conversor_unit.cpp" />
+    <ClCompile Include="homeworklist.cpp" />
+    <ClCompile Include="interescompuesto_calc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adivinanzas.h" />
+    <ClInclude Include="conversor_unit.h" />
+    <ClInclude Include="homeworklist.h" />
+    <ClInclude Include="interescompuesto_calc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
